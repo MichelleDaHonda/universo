@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+ height: 1700px;
+}
+
+#nav{
+    background: white;
+    
+}
+
+#nav a{
+    color: #5b5c5c;
+    
+}
+
+
+
+.cbrbg{
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/cbrbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+.subnav{
+    background-color: red;
+    height: 270px;
+   
+    width: 100%;
+    
+}
+
+#cobremenu{
+    height: 70px;
+}
+
+
+
+#submenu{
+    background: #636363;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    bottom: 15px;
+    transition: all 0.2 ease;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+
+
+#submenu li{
+    border-right: 0.1px solid white;
+    padding-right: 15px;
+    height: 25px;
+    margin-top: 6px;
+}
+
+#submenu li:nth-child(1){
+    margin-left: 15px;
+}
+
+
+#submenu li:nth-child(3){
+    border-right: none;
+}
+
+#submenu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    display: block;
+}
+
+#submenu a:hover{
+    color: black;
+}
+
+.cbr-motos{
+    display: flex;
+    position: relative;
+    left: 255px;
+    top: -120px;
+    
+    width: 400px;
+    
+}
+
+.cbr-motos a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+#cbr650{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#fireblade{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
