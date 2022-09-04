@@ -688,11 +688,7 @@ input, textarea{
 
 
 
-* {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-}
+
 
 .sign {
   justify-content: center;
@@ -836,11 +832,12 @@ input, textarea{
 
 #link-fotos a{
     text-decoration: none;
-    padding: 18px 28px;
+    padding: 38px 58px;
     background: red;
     color: black;
     border-radius: 15px;
     transition: all 0.2s;
+    font-size: 40px;
 }
 
 #link-fotos a:hover{
